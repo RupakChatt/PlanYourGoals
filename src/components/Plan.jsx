@@ -84,8 +84,10 @@ const Plan = ({ userData }) => {
 
   return (
     <div className='mt-6'>
+      {userData?.userInfo?.firstName && (
+        <>
       <h1 className='text-center text-red-600'>* Plan suggested here is only indicative. To get your proper financial planning done contact a professional planner</h1>
-      <div className='p-3 mt-4 border border-blue-600 shadow-lg shadow-blue-200 rounded-md md:flex md:flex-row md:items-center md:justify-between'>
+      <div className='p-3 mt-4 border border-blue-600 rounded-md shadow-lg shadow-blue-200 md:flex md:flex-row md:items-center md:justify-between'>
         <h3 className='text-xl font-medium'><b>Name:</b> {userData?.userInfo?.firstName}</h3>
         <h3 className='text-xl font-medium'><b>Surname: </b>{userData?.userInfo?.lastName}</h3>
         <h3 className='text-xl font-medium'><b>Age:</b> {userData?.userInfo?.age}</h3>
@@ -345,6 +347,7 @@ const Plan = ({ userData }) => {
             : null}
         </div>
       </div>
+      </>)}
     </div>
   )
 }
