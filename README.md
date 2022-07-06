@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# PlanYourGoals
+-------------------
+This project was created using react, styled with tailwind css.
+Website URL : https://planyourgoals.netlify.app/
+-------------------
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Description
+================
+This is a simple project which allows a user to create an account, log in and after filling up a form, present a financial plan to the user. This project also has financial calculators to calculate Lumpsum Investment, SIP Investment, etc. The financial plan is of course is indicative and one should go to a professional to get one's financial plan done.
 
-## Available Scripts
+![Screenshot (63)](https://user-images.githubusercontent.com/104153089/177579042-dcc7eaa2-6bf0-4eef-b69c-d9cf1a1c1202.png)
+----------------
+The Homepage is a basic landing page with a navbar that leads to the calculators and signup and login pages respectively
 
-In the project directory, you can run:
+![Screenshot (64)](https://user-images.githubusercontent.com/104153089/177579840-f27cb871-2921-45d9-aef6-36fb35fa2e8b.png)
 
-### `npm start`
+![Screenshot (65)](https://user-images.githubusercontent.com/104153089/177579851-37a58da1-27ce-44ec-b9a4-48d3fc1d2fc8.png)
+-----------------
+The Calculators tab consists of six financial calculators you can use
+![Screenshot (66)](https://user-images.githubusercontent.com/104153089/177580290-42cacc5c-3465-4d87-b081-51e67bcbe209.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot (67)](https://user-images.githubusercontent.com/104153089/177580303-43a3ea1e-8c44-44d0-951e-bc85bfacc5d1.png)
+-----------------
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A glimpse of how the calculators work
 
-### `npm test`
+![Screenshot (79)](https://user-images.githubusercontent.com/104153089/177582333-f9d768d0-fc02-4815-9a01-c00a894c9904.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+-----------------
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Then we have the signup and login pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot (68)](https://user-images.githubusercontent.com/104153089/177580628-cab2906a-37b2-4dbd-a39b-7343b6adb00a.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot (69)](https://user-images.githubusercontent.com/104153089/177580642-b8755f85-7b42-4966-b8e7-e081071db2a5.png)
+----------------
 
-### `npm run eject`
+After creating an account and logging in you will be routed to the account dashboard where you will be able to fill in the form to get the plan
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot (70)](https://user-images.githubusercontent.com/104153089/177581621-eedfd621-0030-4064-95da-054934d4bfea.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot (71)](https://user-images.githubusercontent.com/104153089/177581631-507acacd-ef76-47a1-a527-1c587b69920b.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot (72)](https://user-images.githubusercontent.com/104153089/177581637-405a107c-a914-4c64-a021-92e7206a3bfc.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot (73)](https://user-images.githubusercontent.com/104153089/177581640-ff234693-6a79-49f0-b5b8-23367e7ebf11.png)
 
-## Learn More
+--------------------
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+After the form is submitted the plan is presented
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot (74)](https://user-images.githubusercontent.com/104153089/177581847-1bf91014-e2e1-4295-b69b-9b104f0ec5ec.png)
 
-### Code Splitting
+![Screenshot (75)](https://user-images.githubusercontent.com/104153089/177581855-781734e2-0022-4978-bc45-71137ce4df72.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot (76)](https://user-images.githubusercontent.com/104153089/177581858-19dc91ea-f4ae-4e5b-9112-708f1be6700b.png)
 
-### Analyzing the Bundle Size
+![Screenshot (77)](https://user-images.githubusercontent.com/104153089/177581861-d30c7cb1-af20-425c-ac40-98ee425ecc22.png)
+----------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+When you are logged in and you come to the homepage or calculators page the navbar will be displaying your email and the logout button. To go to your account dashboard simply click on your displayed email and it will take you there
 
-### Making a Progressive Web App
+![Screenshot (78)](https://user-images.githubusercontent.com/104153089/177582807-cacadb90-d730-494f-a176-51eee38b9192.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+-------------------
+Finally, when you have the form submitted and and got your plan and you log in later to view it simply click on the plan button here it will show your plan
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot (80)](https://user-images.githubusercontent.com/104153089/177583186-24d69e9b-fe6d-47a5-93b0-bd953c4c1115.png)
+-------------------
